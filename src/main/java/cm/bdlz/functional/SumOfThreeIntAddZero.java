@@ -7,6 +7,7 @@ public class SumOfThreeIntAddZero {
         Scanner arr=new Scanner(System.in);
         System.out.println("Enter the no of integer to include in array:");
         int len=arr.nextInt();
+        arr.close();
         System.out.println("Enter the value for array:");
         int[] ar = new int[len];
         for(int i=0;i<len;i++)
